@@ -1,8 +1,8 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Approach", link: "#approach" },
-    { name: "Contact", link: "#contact" },
+    { name: "About", link: "#about",key:1 },
+    { name: "Projects", link: "#projects",key:2 },
+    { name: "Approach", link: "#approach",key:3 },
+    { name: "Contact", link: "#contact",key:4 },
   ];
   
   export const gridItems = [
@@ -15,6 +15,7 @@ export const navItems = [
       titleClassName: "justify-end",
       img: "/b1.svg",
       spareImg: "",
+      key:1
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ export const navItems = [
       titleClassName: "justify-start",
       img: "",
       spareImg: "",
+      key:2
     },
     {
       id: 3,
@@ -35,6 +37,7 @@ export const navItems = [
       titleClassName: "justify-center",
       img: "",
       spareImg: "",
+      key:3
     },
     {
       id: 4,
@@ -45,6 +48,7 @@ export const navItems = [
       titleClassName: "justify-start",
       img: "/grid.svg",
       spareImg: "/b4.svg",
+      key:4
     },
   
     {
@@ -56,6 +60,7 @@ export const navItems = [
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/ARC.png",
       spareImg: "/grid.svg",
+      key:5
     },
     {
       id: 6,
@@ -66,6 +71,7 @@ export const navItems = [
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
       spareImg: "",
+      key:6
     },
   ];
   
@@ -77,6 +83,7 @@ export const navItems = [
       img: "/ResearchAI.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gemini.svg", "/git.svg"],
       link: "https://github.com/Arman176001/Research.ai",
+      key:1
     },
   ];
   
@@ -181,16 +188,19 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link:"https://github.com/Arman176001"
+      link:"https://github.com/Arman176001",
+      key:1
     },
     {
       id: 2,
       img: "/twit.svg",
-      link:"https://x.com/ArmanChaud30997"
+      link:"https://x.com/ArmanChaud30997",
+      key:2
     },
     {
       id: 3,
       img: "/link.svg",
-      link: "https://www.linkedin.com/in/arman-chaudhary-3100a328a/"
+      link: "https://www.linkedin.com/in/arman-chaudhary-3100a328a/",
+      key:3
     },
   ];
