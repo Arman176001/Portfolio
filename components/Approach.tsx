@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-4" id='approach'>
         <h1 className="heading">
             My <span className="text-purple">approach</span>
 
@@ -15,9 +15,8 @@ const Approach = () => {
         <Card 
         title="Planing & Strategy" 
         icon={<AceternityIcon order="Phase 1" />}
-        description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements.">
+        description="We'll collaborate to map out your goals, target audience 
+          and key functionalities.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
@@ -43,8 +42,7 @@ const Approach = () => {
         title="Development & Launch" 
         icon={<AceternityIcon order="Phase 3"/>}
         description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up.">
+          I'll translate everything into functional code,.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"

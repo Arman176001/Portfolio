@@ -160,6 +160,12 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+      rotate: {
+        '2.63': '2.63deg', // Custom rotation value
+      },
+      transformOrigin: {
+        'custom-point': '14.8994px 0.136963px', // Custom transform origin
+      },
     },
   },
   plugins: [

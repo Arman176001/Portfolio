@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Arman's Portfolio",
-  description: "Modern & Minimalist JS Mastry",
+  description: "Transforming Ideas into Effective Software Solutions",
 };
 
 export default function RootLayout({
@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/rocket-lunch.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
             attribute="class"
